@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "arcaneutilities:block/solar_panel_side",
+    "up": "arcaneutilities:block/solar_panel_top",
+    "north": "arcaneutilities:block/solar_panel_side",
+    "south": "arcaneutilities:block/solar_panel_side",
+    "east": "arcaneutilities:block/solar_panel_side",
+    "west": "arcaneutilities:block/solar_panel_side",
+    "particle": "arcaneutilities:block/solar_panel_side"
+  }
+}

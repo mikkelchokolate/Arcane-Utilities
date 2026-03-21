@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "arcaneutilities:double_compressed_dirt"
+    }
+  ],
+  "result": {
+    "item": "arcaneutilities:compressed_dirt",
+    "count": 9
+  }
+}

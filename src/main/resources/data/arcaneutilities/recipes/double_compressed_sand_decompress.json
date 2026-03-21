@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "arcaneutilities:double_compressed_sand"
+    }
+  ],
+  "result": {
+    "item": "arcaneutilities:compressed_sand",
+    "count": 9
+  }
+}

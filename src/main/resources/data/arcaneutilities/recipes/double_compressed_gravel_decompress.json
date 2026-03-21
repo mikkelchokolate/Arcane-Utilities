@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "arcaneutilities:double_compressed_gravel"
+    }
+  ],
+  "result": {
+    "item": "arcaneutilities:compressed_gravel",
+    "count": 9
+  }
+}

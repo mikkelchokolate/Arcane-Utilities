@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "arcaneutilities:compressed_netherrack"
+    }
+  },
+  "result": {
+    "item": "arcaneutilities:double_compressed_netherrack",
+    "count": 1
+  }
+}

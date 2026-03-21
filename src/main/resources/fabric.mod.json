@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "id": "arcaneutilities",
+  "version": "${version}",
+  "name": "Arcane Utilities",
+  "description": "Compressed blocks, Angel Block, Angel Ring, Grid Power, Solar Panels, Wind Mills and more.",
+  "authors": [
+    "mikkelchokolate"
+  ],
+  "contact": {
+    "sources": "https://github.com/mikkelchokolate/arcane-utilities",
+    "issues": "https://github.com/mikkelchokolate/arcane-utilities/issues"
+  },
+
+  "license": "MIT",
+  "icon": "assets/arcaneutilities/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.mikkelchokolate.arcaneutilities.FabricMain"
+    ]
+  },
+  "mixins": [
+    "arcaneutilities.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.21",
+    "minecraft": ">=1.18.2",
+    "fabric-api": "*",
+    "mcpitanlib": "*"
+  }
+}
