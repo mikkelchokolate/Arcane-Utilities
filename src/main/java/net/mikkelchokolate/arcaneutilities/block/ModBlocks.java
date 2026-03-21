@@ -52,11 +52,11 @@ public class ModBlocks {
 
         // Compressed Dirt
         COMPRESSED_DIRT        = registry.registerBlock(_id("compressed_dirt"),
-                () -> new CompatBlock(CompatibleBlockSettings.of(_id("compressed_dirt"), CompatibleMaterial.EARTH).strength(1.0f, 2.0f)));
+                () -> new CompatBlock(CompatibleBlockSettings.of(_id("compressed_dirt"), CompatibleMaterial.SOIL).strength(1.0f, 2.0f)));
         DOUBLE_COMPRESSED_DIRT = registry.registerBlock(_id("double_compressed_dirt"),
-                () -> new CompatBlock(CompatibleBlockSettings.of(_id("double_compressed_dirt"), CompatibleMaterial.EARTH).strength(1.5f, 4.0f)));
+                () -> new CompatBlock(CompatibleBlockSettings.of(_id("double_compressed_dirt"), CompatibleMaterial.SOIL).strength(1.5f, 4.0f)));
         TRIPLE_COMPRESSED_DIRT = registry.registerBlock(_id("triple_compressed_dirt"),
-                () -> new CompatBlock(CompatibleBlockSettings.of(_id("triple_compressed_dirt"), CompatibleMaterial.EARTH).strength(2.0f, 6.0f)));
+                () -> new CompatBlock(CompatibleBlockSettings.of(_id("triple_compressed_dirt"), CompatibleMaterial.SOIL).strength(2.0f, 6.0f)));
 
         // Compressed Gravel
         COMPRESSED_GRAVEL        = registry.registerBlock(_id("compressed_gravel"),
